@@ -1,0 +1,11 @@
+def clean_sentence(s):
+    a_list = []
+    removed_the_spaces = s.strip()
+    replace_commas = removed_the_spaces.replace(" ", "")
+    for num in replace_commas.split(","):
+        a_list.append(int(num))
+
+    return a_list
+
+
+print(clean_sentence("   10, 20,30 , 40,50 , 60   "))
