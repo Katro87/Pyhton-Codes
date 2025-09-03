@@ -1,2 +1,1 @@
-# Pyhton-Codes
-My begginer Codes
+My simple Python Codes 
