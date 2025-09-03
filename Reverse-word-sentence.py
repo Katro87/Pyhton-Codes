@@ -1,7 +1,9 @@
+# As a whole 
 def reverse(s):
     return s[::-1]
 
 print(reverse("Hello my name is sufyan"))
+# As a single word
 def reverse(s):
     reversed_word = []
     for word in s.split():
